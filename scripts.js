@@ -45,7 +45,7 @@ function gerarGrafico() {
                         stepSize: 1,
                         display: true,
                         font: {
-                            size: 18
+                            size: 12
                         },
 
                     }
