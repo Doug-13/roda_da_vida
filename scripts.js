@@ -73,3 +73,15 @@ document.getElementById('formData').addEventListener('submit', function (e) {
     e.preventDefault();
     gerarGrafico();
 });
+
+
+// document.getElementById("printGraphic").addEventListener("click", function () {
+//     var canvas = document.getElementById("polarChart");
+//     var imgData = canvas.toDataURL("image/png");
+//     var printWindow = window.open("", "", "width=600,height=600");
+//     printWindow.document.open();
+//     printWindow.document.write('<img src="' + imgData + '" width="100%" height="100%" />');
+//     printWindow.document.close();
+//     printWindow.print();
+//     printWindow.close();
+// });
